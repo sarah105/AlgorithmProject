@@ -30,8 +30,9 @@ public class Main {
         Vector<Edge>edges = graph.getEdges();
         for(int i = 0 ; i < edges.size() ; i++)
             System.out.println(edges.get(i).initial+" "+edges.get(i).terminate+" "+edges.get(i).weight);
-        Vector<Integer>adj = graph.getAdj("1");
-        for(int i = 0 ; i < adj.size(); i++)
-            System.out.print(adj.get(i)+" ");
+
+
+        ShortestPath t = new ShortestPath(graph.vertexNum,graph.vertices);
+        t.dijkstra(graph.mat,0);
     }
 }
