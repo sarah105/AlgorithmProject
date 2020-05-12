@@ -15,6 +15,7 @@ public class Graph {
     Vector<String> vertices;
     int mat[][];
     int vertexNum ;
+
     public Graph(Vector <String> vertices){
         vertexNum = vertices.size();
         this.vertices = new Vector<>();
@@ -22,6 +23,10 @@ public class Graph {
         builtMatrix();
         for ( int i = 0 ; i < vertexNum ; i++)
             this.vertices.add(vertices.get(i));
+    }
+
+    public Graph(Graph graph){
+        this.copy(graph);
     }
 
     public void addEdge(String initialVertex , String terminalVertex,int weight){
@@ -78,6 +83,9 @@ public class Graph {
 
     public void copy(Graph graph){
         vertexNum = graph.vertexNum;
+        vertices = new Vector<>();
+        for(int i = 0 ; i < vertexNum ; i++)
+            vertices.add(graph.getVertices().get(i));
         mat = new int[vertexNum][vertexNum];
         for(int i = 0 ; i < vertexNum ; i++)
             for(int j = 0 ; j < vertexNum ; j++)
