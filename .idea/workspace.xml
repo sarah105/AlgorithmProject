@@ -25,6 +25,7 @@
       <change beforePath="$PROJECT_DIR$/out/production/finalProject/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/finalProject/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/maximumFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/maximumFlow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +41,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1boMhsn3Je9wNJWsxdlcb2O7rYZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -92,7 +94,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -103,25 +107,29 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1589316862270" />
-    <state width="1493" height="172" key="GridCell.Tab.0.bottom" timestamp="1589324903881">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1589331600028">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589298464471" />
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589331600028" />
     <state width="1493" height="172" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589324903881" />
-    <state width="1493" height="172" key="GridCell.Tab.0.center" timestamp="1589324903881">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1322" height="174" key="GridCell.Tab.0.center" timestamp="1589331600027">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589298464470" />
+    <state width="1322" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589331600027" />
     <state width="1493" height="172" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589324903881" />
-    <state width="1493" height="172" key="GridCell.Tab.0.left" timestamp="1589324903881">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1322" height="174" key="GridCell.Tab.0.left" timestamp="1589331600026">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589298464469" />
+    <state width="1322" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589331600026" />
     <state width="1493" height="172" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589324903881" />
-    <state width="1493" height="172" key="GridCell.Tab.0.right" timestamp="1589324903881">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1322" height="174" key="GridCell.Tab.0.right" timestamp="1589331600027">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589298464470" />
+    <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589331600027" />
     <state width="1493" height="172" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589324903881" />
+    <state x="492" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589331760801">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1589331760801" />
   </component>
 </project>

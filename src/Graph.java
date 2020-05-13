@@ -55,8 +55,8 @@ public class Graph {
         return mat;
     }
 
-    public Vector<Integer> getAdj(String vertex){
-        int row = vertices.indexOf(vertex);
+    public Vector<Integer> getAdj(int row){
+        //int row = vertices.indexOf(vertex);
         Vector <Integer> res = new Vector<>();
         for ( int i = 0 ; i < vertexNum ; i++){
             if(mat[row][i] > 0)
